@@ -1,0 +1,92 @@
+2026-09-15 21:27:25.037 +07:00 [INF] Now listening on: https://localhost:7139
+2026-09-15 21:27:25.086 +07:00 [INF] Now listening on: http://localhost:5049
+2026-09-15 21:27:25.136 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-15 21:27:25.138 +07:00 [INF] Hosting environment: Development
+2026-09-15 21:27:25.139 +07:00 [INF] Content root path: C:\Personal\Practices\CodePilot\MiddlewareCopilot\UserManagementAPI
+2026-09-15 21:28:45.215 +07:00 [INF] Now listening on: https://localhost:7139
+2026-09-15 21:28:45.248 +07:00 [INF] Now listening on: http://localhost:5049
+2026-09-15 21:28:45.308 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-15 21:28:45.310 +07:00 [INF] Hosting environment: Development
+2026-09-15 21:28:45.311 +07:00 [INF] Content root path: C:\Personal\Practices\CodePilot\MiddlewareCopilot\UserManagementAPI
+2026-09-15 21:29:06.006 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5049/api/users - null null
+2026-09-15 21:29:06.522 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5049/api/users - 307 0 null 546.9205ms
+2026-09-15 21:29:06.582 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7139/api/users - null null
+2026-09-15 21:29:06.616 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7139/api/users - 401 null application/json 33.7566ms
+2026-09-15 21:29:49.909 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5049/api/users - application/json 82
+2026-09-15 21:29:49.912 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5049/api/users - 307 0 null 3.3782ms
+2026-09-15 21:29:49.960 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:29:49.963 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 401 null application/json 3.1178ms
+2026-09-15 21:30:04.482 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5049/api/users - null null
+2026-09-15 21:30:04.484 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5049/api/users - 307 0 null 2.1366ms
+2026-09-15 21:30:04.485 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7139/api/users - null null
+2026-09-15 21:30:04.488 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7139/api/users - 401 null application/json 3.2288ms
+2026-09-15 21:30:13.256 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5049/api/users - null null
+2026-09-15 21:30:13.260 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5049/api/users - 307 0 null 4.3924ms
+2026-09-15 21:30:13.261 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7139/api/users - null null
+2026-09-15 21:30:13.268 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7139/api/users - 401 null application/json 7.0626ms
+2026-09-15 21:30:32.223 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5049/api/users - application/json 82
+2026-09-15 21:30:32.225 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5049/api/users - 307 0 null 1.9863ms
+2026-09-15 21:30:32.225 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:30:32.229 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 401 null application/json 3.0664ms
+2026-09-15 21:30:50.398 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5049/api/users - application/json 82
+2026-09-15 21:30:50.405 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5049/api/users - 307 0 null 7.1903ms
+2026-09-15 21:30:50.406 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:31:11.922 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 401 null application/json 21515.2576ms
+2026-09-15 21:31:30.250 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5049/api/users - application/json 82
+2026-09-15 21:31:30.264 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5049/api/users - 307 0 null 14.3909ms
+2026-09-15 21:31:30.273 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:31:44.659 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 401 null application/json 14385.5623ms
+2026-09-15 21:32:00.568 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:32:24.198 +07:00 [INF] Incoming request: POST /api/users
+2026-09-15 21:32:24.212 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:32:24.241 +07:00 [INF] Route matched with {action = "Add", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User] Add(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-15 21:32:24.288 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-09-15 21:32:24.318 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI) in 69.1387ms
+2026-09-15 21:32:24.319 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:32:24.320 +07:00 [INF] Outgoing response: 201 for POST /api/users in 109ms
+2026-09-15 21:32:24.321 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 499 null application/json; charset=utf-8 23752.6959ms
+2026-09-15 21:32:35.079 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:32:38.123 +07:00 [INF] Incoming request: POST /api/users
+2026-09-15 21:32:38.128 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:32:38.129 +07:00 [INF] Route matched with {action = "Add", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User] Add(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-15 21:32:38.131 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-09-15 21:32:38.133 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI) in 3.0471ms
+2026-09-15 21:32:38.139 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:32:38.139 +07:00 [INF] Outgoing response: 201 for POST /api/users in 11ms
+2026-09-15 21:32:38.140 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 201 null application/json; charset=utf-8 3060.6188ms
+2026-09-15 21:32:43.567 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:33:59.427 +07:00 [INF] Incoming request: POST /api/users
+2026-09-15 21:33:59.431 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:33:59.432 +07:00 [INF] Route matched with {action = "Add", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User] Add(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-15 21:33:59.433 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-09-15 21:33:59.434 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI) in 1.6493ms
+2026-09-15 21:33:59.440 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:33:59.441 +07:00 [INF] Outgoing response: 201 for POST /api/users in 9ms
+2026-09-15 21:33:59.442 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 499 null application/json; charset=utf-8 75872.7665ms
+2026-09-15 21:34:59.191 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:35:35.781 +07:00 [INF] Incoming request: POST /api/users
+2026-09-15 21:35:35.785 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:35:35.786 +07:00 [INF] Route matched with {action = "Add", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User] Add(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-15 21:35:35.789 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-09-15 21:35:35.791 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI) in 1.8649ms
+2026-09-15 21:35:35.792 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:35:35.792 +07:00 [INF] Outgoing response: 201 for POST /api/users in 6ms
+2026-09-15 21:35:35.793 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 499 null application/json; charset=utf-8 36600.3715ms
+2026-09-15 21:36:12.102 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:36:22.252 +07:00 [INF] Incoming request: POST /api/users
+2026-09-15 21:36:22.256 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:36:22.258 +07:00 [INF] Route matched with {action = "Add", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User] Add(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-15 21:36:59.990 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-09-15 21:36:59.995 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI) in 37734.6842ms
+2026-09-15 21:36:59.995 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:36:59.996 +07:00 [INF] Outgoing response: 201 for POST /api/users in 37738ms
+2026-09-15 21:36:59.997 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 499 null application/json; charset=utf-8 47893.6825ms
+2026-09-15 21:37:30.605 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7139/api/users - application/json 82
+2026-09-15 21:37:33.111 +07:00 [INF] Incoming request: POST /api/users
+2026-09-15 21:37:33.161 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:37:33.161 +07:00 [INF] Route matched with {action = "Add", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User] Add(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-15 21:37:34.757 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-09-15 21:37:34.762 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI) in 1599.8267ms
+2026-09-15 21:37:34.763 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-15 21:37:43.134 +07:00 [INF] Outgoing response: 201 for POST /api/users in 1603ms
+2026-09-15 21:37:43.138 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7139/api/users - 201 null application/json; charset=utf-8 12532.3599ms

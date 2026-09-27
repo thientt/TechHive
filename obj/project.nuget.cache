@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "D9j4Kfr+yxY=",
+  "success": true,
+  "projectFilePath": "F:\\Publish\\TechHive\\UserManagementAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trant\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\trant\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\trant\\.nuget\\packages\\serilog\\4.4.0\\serilog.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

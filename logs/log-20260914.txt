@@ -1,0 +1,23 @@
+2026-09-14 20:05:53.770 +07:00 [INF] Now listening on: http://localhost:5049
+2026-09-14 20:05:53.812 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-14 20:05:53.816 +07:00 [INF] Hosting environment: Development
+2026-09-14 20:05:53.817 +07:00 [INF] Content root path: C:\Personal\Practices\CodePilot\MiddlewareCopilot\UserManagementAPI
+2026-09-14 20:06:17.710 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5049/api/users - application/json 82
+2026-09-14 20:06:17.737 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-09-14 20:06:17.741 +07:00 [INF] Incoming request: POST /api/users
+2026-09-14 20:06:17.744 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-14 20:06:17.764 +07:00 [INF] Route matched with {action = "Add", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User] Add(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-14 20:06:17.811 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-09-14 20:06:17.838 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI) in 70.0363ms
+2026-09-14 20:06:17.847 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.Add (UserManagementAPI)'
+2026-09-14 20:06:17.848 +07:00 [INF] Outgoing response: 201 for POST /api/users in 104ms
+2026-09-14 20:06:17.853 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5049/api/users - 201 null application/json; charset=utf-8 144.2019ms
+2026-09-14 20:06:46.318 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5049/api/users - null null
+2026-09-14 20:06:46.324 +07:00 [INF] Incoming request: GET /api/users
+2026-09-14 20:06:46.325 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetAll (UserManagementAPI)'
+2026-09-14 20:06:46.328 +07:00 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[UserManagementAPI.Models.User]] GetAll() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-09-14 20:06:46.331 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.ObjectModel.ReadOnlyCollection`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-14 20:06:46.337 +07:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetAll (UserManagementAPI) in 7.3489ms
+2026-09-14 20:06:46.339 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetAll (UserManagementAPI)'
+2026-09-14 20:06:46.340 +07:00 [INF] Outgoing response: 200 for GET /api/users in 14ms
+2026-09-14 20:06:46.342 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5049/api/users - 200 null application/json; charset=utf-8 24.9334ms

@@ -1,0 +1,58 @@
+@baseUrl = https://localhost:7139
+@validToken = techhive-secret-token
+@invalidToken = wrong-token
+
+### Auth: Missing token -> 401
+GET {{baseUrl}}/api/users
+
+### Auth: Invalid token -> 401
+GET {{baseUrl}}/api/users
+Authorization: Bearer {{invalidToken}}
+
+### Get all users
+GET {{baseUrl}}/api/users
+Authorization: Bearer {{validToken}}
+
+### Add a user -> 201 Created
+POST {{baseUrl}}/api/users
+Authorization: Bearer {{validToken}}
+Content-Type: application/json
+
+{
+  "userName": "jdoe",
+  "email": "jdoe@example.com",
+  "doB": "1990-05-14"
+}
+
+### Get user by id
+GET {{baseUrl}}/api/users/1
+Authorization: Bearer {{validToken}}
+
+### Update a user -> 200 OK
+PUT {{baseUrl}}/api/users/1
+Authorization: Bearer {{validToken}}
+Content-Type: application/json
+
+{
+  "userName": "jdoe-updated",
+  "email": "jdoe.updated@example.com",
+  "doB": "1990-05-14"
+}
+
+### Add user with missing fields -> 400 Bad Request
+POST {{baseUrl}}/api/users
+Authorization: Bearer {{validToken}}
+Content-Type: application/json
+
+{
+  "userName": "",
+  "email": ""
+}
+
+### Delete a user -> 204 No Content
+DELETE {{baseUrl}}/api/users/1
+Authorization: Bearer {{validToken}}
+
+### Get deleted user -> 404 Not Found
+GET {{baseUrl}}/api/users/1
+Authorization: Bearer {{validToken}}
